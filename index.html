@@ -14,7 +14,7 @@
 <link rel="canonical" href="https://emimitra.in">
 <title>EMI Mitra — Free EMI Calculator India | Home Loan, Car Loan, Personal Loan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"EMI Mitra","url":"https://emimitra.in","description":"Free EMI and Loan Calculator for India","applicationCategory":"FinanceApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}
 </script>
@@ -28,11 +28,11 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'DM Sans',sans-serif;background:var(--wh);color:var(--tx);overflow-x:hidden;line-height:1.6}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--wh);color:var(--tx);overflow-x:hidden;line-height:1.6}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;background:rgba(255,255,255,0.98);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd2);box-shadow:0 2px 16px rgba(255,107,0,0.06)}
-.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.45rem;color:var(--dk);text-decoration:none}
+.logo{font-family:'Fraunces',serif;font-weight:800;font-size:1.45rem;color:var(--dk);text-decoration:none}
 .logo span{color:var(--or1)}
 .nav-links{display:flex;gap:4px;list-style:none}
 .nav-links a{text-decoration:none;color:var(--tx2);font-size:.82rem;font-weight:500;padding:7px 14px;border-radius:20px;transition:all .2s}
@@ -58,12 +58,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:cen
 .badge-dot{width:6px;height:6px;background:var(--or1);border-radius:50%;animation:blink 2s infinite}
 @keyframes blink{0%,100%{opacity:1}60%{opacity:.4}}
 
-.hero h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,3.8vw,3.1rem);font-weight:800;line-height:1.18;margin-bottom:18px;color:var(--dk);letter-spacing:-0.5px}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(2rem,3.8vw,3.1rem);font-weight:800;line-height:1.18;margin-bottom:18px;color:var(--dk);letter-spacing:-0.5px}
 .hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--or1),var(--or3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{color:var(--tx2);font-size:.97rem;line-height:1.78;margin-bottom:28px;font-weight:400;max-width:420px}
 
 .hero-stats{display:flex;gap:32px;margin-bottom:28px}
-.s-num{font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:var(--or1);line-height:1}
+.s-num{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:800;color:var(--or1);line-height:1}
 .s-lbl{font-size:.72rem;color:var(--tx3);margin-top:4px;letter-spacing:.5px}
 
 .hero-trust{display:flex;align-items:center;gap:10px;color:var(--tx3);font-size:.76rem}
@@ -75,13 +75,13 @@ nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:cen
 
 .loan-tabs{display:flex;gap:3px;background:var(--ow);border:1px solid var(--bd2);padding:4px;border-radius:12px;margin-bottom:22px;overflow-x:auto;scrollbar-width:none}
 .loan-tabs::-webkit-scrollbar{display:none}
-.ltab{flex:1;padding:8px 8px;border:none;background:transparent;border-radius:8px;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:.76rem;font-weight:500;color:var(--tx2);transition:all .25s;white-space:nowrap;min-width:70px}
+.ltab{flex:1;padding:8px 8px;border:none;background:transparent;border-radius:8px;cursor:pointer;font-family:'Plus Jakarta Sans',sans-serif;font-size:.76rem;font-weight:500;color:var(--tx2);transition:all .25s;white-space:nowrap;min-width:70px}
 .ltab.on{background:linear-gradient(135deg,var(--or1),var(--or2));color:#fff;box-shadow:0 4px 14px rgba(255,107,0,0.3);font-weight:600}
 
 .inp-row{margin-bottom:16px}
 .inp-label{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .inp-label span:first-child{font-size:.78rem;font-weight:500;color:var(--tx2)}
-.inp-label span:last-child{font-family:'Syne',sans-serif;font-weight:700;color:var(--or1);font-size:.9rem}
+.inp-label span:last-child{font-family:'Fraunces',serif;font-weight:700;color:var(--or1);font-size:.9rem}
 
 input[type=range]{width:100%;height:5px;-webkit-appearance:none;border-radius:3px;outline:none;cursor:pointer}
 input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;background:linear-gradient(135deg,var(--or1),var(--or2));border-radius:50%;cursor:pointer;border:3px solid #fff;box-shadow:0 2px 10px rgba(255,107,0,0.35)}
@@ -91,7 +91,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 .result-box::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--or1),var(--or3),var(--or1),transparent);opacity:.4}
 .ri{text-align:center;padding:4px 0}
 .ri-label{font-size:.68rem;color:var(--tx3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:5px}
-.ri-val{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:800;color:var(--dk)}
+.ri-val{font-family:'Fraunces',serif;font-size:1.05rem;font-weight:800;color:var(--dk)}
 .ri-val.big{color:var(--or1);font-size:1.28rem}
 
 /* PIE */
@@ -108,7 +108,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 .sec{padding:80px 5%}
 .sec-inner{max-width:1140px;margin:0 auto}
 .sec-tag{font-size:.72rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--or1);margin-bottom:10px}
-.sec-h{font-family:'Syne',sans-serif;font-size:clamp(1.75rem,2.8vw,2.4rem);font-weight:800;color:var(--dk);line-height:1.2;margin-bottom:14px}
+.sec-h{font-family:'Fraunces',serif;font-size:clamp(1.75rem,2.8vw,2.4rem);font-weight:800;color:var(--dk);line-height:1.2;margin-bottom:14px}
 .sec-p{color:var(--tx2);font-size:.97rem;line-height:1.75;max-width:540px}
 
 /* CALC GRID */
@@ -117,7 +117,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 .ci:hover{border-color:var(--or1);transform:translateY(-4px);box-shadow:0 14px 36px rgba(255,107,0,0.1)}
 .ci-icon{width:44px;height:44px;background:var(--or5);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.25rem;margin-bottom:14px;transition:all .3s}
 .ci:hover .ci-icon{background:linear-gradient(135deg,var(--or1),var(--or2));transform:scale(1.08)}
-.ci h3{font-family:'Syne',sans-serif;font-size:.93rem;font-weight:700;color:var(--dk);margin-bottom:6px}
+.ci h3{font-family:'Fraunces',serif;font-size:.93rem;font-weight:700;color:var(--dk);margin-bottom:6px}
 .ci p{font-size:.78rem;color:var(--tx2);line-height:1.55}
 .ci-arrow{display:inline-flex;align-items:center;gap:4px;color:var(--or1);font-size:.76rem;font-weight:600;margin-top:12px;transition:gap .2s}
 .ci:hover .ci-arrow{gap:8px}
@@ -127,8 +127,8 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px;margin-top:50px}
 .step-card{padding:28px;background:var(--wh);border:1.5px solid var(--bd2);border-radius:18px;transition:all .3s}
 .step-card:hover{border-color:var(--or1);box-shadow:0 8px 28px rgba(255,107,0,0.1)}
-.step-n{font-family:'Syne',sans-serif;font-size:2.8rem;font-weight:800;color:var(--or5);-webkit-text-stroke:2px var(--or4);line-height:1;margin-bottom:12px}
-.step-card h3{font-family:'Syne',sans-serif;font-size:.95rem;font-weight:700;color:var(--dk);margin-bottom:8px}
+.step-n{font-family:'Fraunces',serif;font-size:2.8rem;font-weight:800;color:var(--or5);-webkit-text-stroke:2px var(--or4);line-height:1;margin-bottom:12px}
+.step-card h3{font-family:'Fraunces',serif;font-size:.95rem;font-weight:700;color:var(--dk);margin-bottom:8px}
 .step-card p{font-size:.82rem;color:var(--tx2);line-height:1.65}
 
 /* PARTNER SECTION */
@@ -141,7 +141,7 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 /* CONTENT */
 .content-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin-top:42px}
 .content-card{background:var(--ow2);border:1.5px solid var(--bd2);border-radius:16px;padding:24px}
-.content-card h3{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;color:var(--dk);margin-bottom:12px}
+.content-card h3{font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:var(--dk);margin-bottom:12px}
 .content-card p{font-size:.85rem;color:var(--tx2);line-height:1.8}
 .formula{background:var(--dk);border-radius:10px;padding:14px 16px;font-family:'Courier New',monospace;font-size:.82rem;color:#FFB347;line-height:2;margin-top:8px}
 
@@ -157,10 +157,10 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 /* FOOTER */
 footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
 .foot-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;padding-bottom:36px;border-bottom:1px solid var(--bd2)}
-.foot-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.4rem;color:var(--dk);text-decoration:none}
+.foot-logo{font-family:'Fraunces',serif;font-weight:800;font-size:1.4rem;color:var(--dk);text-decoration:none}
 .foot-logo span{color:var(--or1)}
 .foot-desc{color:var(--tx2);font-size:.8rem;line-height:1.7;margin-top:8px;max-width:240px}
-.foot-col h4{font-family:'Syne',sans-serif;font-size:.78rem;font-weight:700;color:var(--tx3);text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
+.foot-col h4{font-family:'Fraunces',serif;font-size:.78rem;font-weight:700;color:var(--tx3);text-transform:uppercase;letter-spacing:1px;margin-bottom:14px}
 .foot-col a{display:block;color:var(--tx2);text-decoration:none;font-size:.82rem;margin-bottom:8px;transition:color .2s}
 .foot-col a:hover{color:var(--or1)}
 .foot-bottom{text-align:center;padding-top:20px;font-size:.73rem;color:var(--tx3)}
@@ -262,16 +262,16 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
     <h2 class="sec-h">Every Loan Calculator<br>You Will Ever Need</h2>
     <p class="sec-p">From home loans to MSME business loans — calculate, compare and plan with India's most complete loan toolkit.</p>
     <div class="cg">
-      <a href="#" class="ci" onclick="goTab('home');return false"><div class="ci-icon">🏠</div><h3>Home Loan EMI Calculator</h3><p>Calculate monthly EMI for your dream home with full interest breakdown.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci" onclick="goTab('personal');return false"><div class="ci-icon">💳</div><h3>Personal Loan EMI Calculator</h3><p>Instant EMI for personal loans from ₹50,000 to ₹50 lakhs.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci" onclick="goTab('car');return false"><div class="ci-icon">🚗</div><h3>Car Loan EMI Calculator</h3><p>Plan your car purchase with exact EMI and total cost estimate.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci" onclick="goTab('business');return false"><div class="ci-icon">🏢</div><h3>Business Loan EMI Calculator</h3><p>EMI calculator for MSME and business loans up to ₹5 crore.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">✅</div><h3>Loan Eligibility Checker</h3><p>Find exact loan amount you qualify for based on your salary.</p><span class="ci-arrow">Check Now →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">🔄</div><h3>Balance Transfer Calculator</h3><p>Calculate exact savings when switching to a lower interest bank.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">📈</div><h3>Step-Up EMI Calculator</h3><p>EMI that grows annually with your salary — ideal for young earners.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">⚡</div><h3>Prepayment Savings Calculator</h3><p>See exactly how much interest you save by prepaying your loan.</p><span class="ci-arrow">Calculate →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">🏘️</div><h3>Rent vs Buy Calculator</h3><p>Data-driven answer to whether renting or buying makes more sense.</p><span class="ci-arrow">Analyse →</span></a>
-      <a href="#" class="ci"><div class="ci-icon">⚖️</div><h3>Loan Comparison Tool</h3><p>Compare two loan offers side by side to find the better deal.</p><span class="ci-arrow">Compare →</span></a>
+      <a href="/home-loan-emi-calculator" class="ci"><div class="ci-icon">🏠</div><h3>Home Loan EMI Calculator</h3><p>Calculate monthly EMI for your dream home with full interest breakdown.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/personal-loan-emi-calculator" class="ci"><div class="ci-icon">💳</div><h3>Personal Loan EMI Calculator</h3><p>Instant EMI for personal loans from ₹50,000 to ₹50 lakhs.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/car-loan-emi-calculator" class="ci"><div class="ci-icon">🚗</div><h3>Car Loan EMI Calculator</h3><p>Plan your car purchase with exact EMI and total cost estimate.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/business-loan-emi-calculator" class="ci"><div class="ci-icon">🏢</div><h3>Business Loan EMI Calculator</h3><p>EMI calculator for MSME and business loans up to ₹5 crore.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/loan-eligibility-calculator" class="ci"><div class="ci-icon">✅</div><h3>Loan Eligibility Checker</h3><p>Find exact loan amount you qualify for based on your salary.</p><span class="ci-arrow">Check Now →</span></a>
+      <a href="/balance-transfer-calculator" class="ci"><div class="ci-icon">🔄</div><h3>Balance Transfer Calculator</h3><p>Calculate exact savings when switching to a lower interest bank.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/step-up-emi-calculator" class="ci"><div class="ci-icon">📈</div><h3>Step-Up EMI Calculator</h3><p>EMI that grows annually with your salary — ideal for young earners.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/prepayment-calculator" class="ci"><div class="ci-icon">⚡</div><h3>Prepayment Savings Calculator</h3><p>See exactly how much interest you save by prepaying your loan.</p><span class="ci-arrow">Calculate →</span></a>
+      <a href="/rent-vs-buy-calculator" class="ci"><div class="ci-icon">🏘️</div><h3>Rent vs Buy Calculator</h3><p>Data-driven answer to whether renting or buying makes more sense.</p><span class="ci-arrow">Analyse →</span></a>
+      <a href="/loan-comparison-calculator" class="ci"><div class="ci-icon">⚖️</div><h3>Loan Comparison Tool</h3><p>Compare two loan offers side by side to find the better deal.</p><span class="ci-arrow">Compare →</span></a>
     </div>
   </div>
 </section>
@@ -363,26 +363,26 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
     </div>
     <div class="foot-col">
       <h4>Calculators</h4>
-      <a href="#">Home Loan EMI</a>
-      <a href="#">Personal Loan EMI</a>
-      <a href="#">Car Loan EMI</a>
-      <a href="#">Business Loan EMI</a>
-      <a href="#">Loan Eligibility</a>
+      <a href="/home-loan-emi-calculator">Home Loan EMI</a>
+      <a href="/personal-loan-emi-calculator">Personal Loan EMI</a>
+      <a href="/car-loan-emi-calculator">Car Loan EMI</a>
+      <a href="/business-loan-emi-calculator">Business Loan EMI</a>
+      <a href="/loan-eligibility-calculator">Loan Eligibility</a>
     </div>
     <div class="foot-col">
       <h4>Tools</h4>
-      <a href="#">Prepayment Calculator</a>
-      <a href="#">Balance Transfer</a>
-      <a href="#">Loan Comparison</a>
-      <a href="#">Rent vs Buy</a>
-      <a href="#">Step-Up EMI</a>
+      <a href="/prepayment-calculator">Prepayment Calculator</a>
+      <a href="/balance-transfer-calculator">Balance Transfer</a>
+      <a href="/loan-comparison-calculator">Loan Comparison</a>
+      <a href="/rent-vs-buy-calculator">Rent vs Buy</a>
+      <a href="/step-up-emi-calculator">Step-Up EMI</a>
     </div>
     <div class="foot-col">
       <h4>Company</h4>
-      <a href="#">About EMI Mitra</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Disclaimer</a>
-      <a href="#">Contact</a>
+      <a href="/about">About EMI Mitra</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/contact">Contact</a>
     </div>
   </div>
   <div class="foot-bottom">
