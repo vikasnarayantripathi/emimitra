@@ -55,7 +55,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:cen
 .hero-inner{max-width:1140px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1.05fr;gap:60px;align-items:center;position:relative;z-index:1}
 .hero-text{}
 .badge{display:inline-flex;align-items:center;gap:8px;background:var(--or5);border:1px solid rgba(255,107,0,0.25);color:var(--or2);padding:6px 16px;border-radius:30px;font-size:.75rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:20px}
-.badge-dot{width:6px;height:6px;background:var(--or1);border-radius:50%;animation:blink 2s infinite}
+.badge-dot{width:7px;height:7px;background:#0E9F6E;border-radius:50%;box-shadow:0 0 0 0 rgba(14,159,110,0.5);animation:pulseGreen 2.2s infinite}
+@keyframes pulseGreen{0%{box-shadow:0 0 0 0 rgba(14,159,110,0.45)}70%{box-shadow:0 0 0 7px rgba(14,159,110,0)}100%{box-shadow:0 0 0 0 rgba(14,159,110,0)}}
 @keyframes blink{0%,100%{opacity:1}60%{opacity:.4}}
 
 .hero h1{font-family:'Fraunces',serif;font-size:clamp(2rem,3.8vw,3.1rem);font-weight:800;line-height:1.18;margin-bottom:18px;color:var(--dk);letter-spacing:-0.5px}
@@ -339,6 +340,20 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
   </div>
 </section>
 
+<!-- GUIDES -->
+<section class="sec" id="guides" style="background:var(--wh)">
+  <div class="sec-inner">
+    <p class="sec-tag">Guides</p>
+    <h2 class="sec-h">Loan Guides &<br>Helpful Articles</h2>
+    <p class="sec-p">In-depth guides to help you understand loans, EMIs and eligibility — written in simple language for Indian borrowers.</p>
+    <div class="cg">
+      <a href="/sbi-home-loan-emi-calculator-2026" class="ci"><div class="ci-icon">🏦</div><h3>SBI Home Loan EMI 2026</h3><p>Current SBI rates, EMI examples, eligibility and 5 ways to reduce your EMI.</p><span class="ci-arrow">Read →</span></a>
+      <a href="/home-loan-on-50000-salary" class="ci"><div class="ci-icon">💰</div><h3>Home Loan on ₹50,000 Salary</h3><p>Exactly how much home loan you can get on a ₹50k salary — and how to increase it.</p><span class="ci-arrow">Read →</span></a>
+      <a href="/personal-loan-emi-5-lakh" class="ci"><div class="ci-icon">📄</div><h3>₹5 Lakh Personal Loan EMI</h3><p>Full EMI tables by tenure and interest rate, plus tips to get the lowest rate.</p><span class="ci-arrow">Read →</span></a>
+    </div>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="sec" id="faq" style="background:var(--wh)">
   <div class="sec-inner">
@@ -377,6 +392,12 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
       <a href="/loan-comparison-calculator">Loan Comparison</a>
       <a href="/rent-vs-buy-calculator">Rent vs Buy</a>
       <a href="/step-up-emi-calculator">Step-Up EMI</a>
+    </div>
+    <div class="foot-col">
+      <h4>Guides</h4>
+      <a href="/sbi-home-loan-emi-calculator-2026">SBI Home Loan EMI</a>
+      <a href="/home-loan-on-50000-salary">Loan on ₹50k Salary</a>
+      <a href="/personal-loan-emi-5-lakh">₹5 Lakh Personal Loan</a>
     </div>
     <div class="foot-col">
       <h4>Company</h4>
