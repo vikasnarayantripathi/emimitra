@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Free Loan Comparison Calculator India 2026. Compare two loan offers side by side - EMI, total interest and total cost. Pick the cheaper loan instantly.">
+<meta name="keywords" content="loan comparison calculator, compare loan offers, compare EMI, which loan is cheaper">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://emimitra.in/loan-comparison-calculator">
+<title>Loan Comparison Calculator 2026 — Compare Two Loans | EMI Mitra</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--or1:#FF6B00;--or2:#E85D00;--or3:#FF8C00;--or5:#FFF0E6;--dk:#1A0800;--tx:#2D1A0A;--tx2:#7A5A3A;--tx3:#B08060;--bd:#EDD9C8;--bd2:#F5E8DE;--wh:#FFFFFF;--ow:#FBF8F5;--ow2:#FFF9F6;--gr:#00C853;}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'DM Sans',sans-serif;background:var(--wh);color:var(--tx);overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;background:rgba(255,255,255,0.98);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd2)}
+.logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.45rem;color:var(--dk);text-decoration:none}.logo span{color:var(--or1)}
+.nav-links{display:flex;gap:4px;list-style:none}.nav-links a{text-decoration:none;color:var(--tx2);font-size:.82rem;font-weight:500;padding:7px 14px;border-radius:20px;transition:all .2s}.nav-links a:hover{background:var(--or5);color:var(--or2)}
+.nav-cta{background:linear-gradient(135deg,var(--or1),var(--or2))!important;color:white!important}
+@media(max-width:768px){.nav-links{display:none}}
+.hero{background:linear-gradient(150deg,#FFFAF7,#FFF5EE,#FFF0E6);padding:100px 5% 50px;text-align:center}
+.breadcrumb{font-size:.78rem;color:var(--tx3);margin-bottom:16px}.breadcrumb a{color:var(--or1);text-decoration:none}
+.hero h1{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,3vw,2.8rem);font-weight:800;color:var(--dk);line-height:1.2;margin-bottom:14px}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--or1),var(--or3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{color:var(--tx2);font-size:.95rem;line-height:1.75;max-width:600px;margin:0 auto}
+.compare-wrap{max-width:1000px;margin:40px auto 0;padding:0 5%}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.loan-card{background:var(--wh);border-radius:20px;padding:24px;box-shadow:0 8px 30px rgba(255,107,0,0.1);border:2px solid var(--bd2)}
+.loan-card.winner{border-color:var(--gr);box-shadow:0 8px 30px rgba(0,200,83,0.2)}
+.loan-title{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;color:var(--dk);margin-bottom:18px;display:flex;align-items:center;justify-content:space-between}
+.win-badge{background:var(--gr);color:#fff;font-size:.62rem;padding:4px 10px;border-radius:20px;font-weight:700;letter-spacing:.5px}
+.inp-row{margin-bottom:14px}.inp-label{display:flex;justify-content:space-between;margin-bottom:7px}.inp-label span:first-child{font-size:.76rem;font-weight:500;color:var(--tx2)}.inp-label span:last-child{font-family:'Syne',sans-serif;font-weight:700;color:var(--or1);font-size:.85rem}
+input[type=range]{width:100%;height:5px;-webkit-appearance:none;border-radius:3px;outline:none;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;background:linear-gradient(135deg,var(--or1),var(--or2));border-radius:50%;cursor:pointer;border:3px solid #fff;box-shadow:0 2px 8px rgba(255,107,0,0.35)}
+.loan-results{border-top:1px solid var(--bd2);margin-top:16px;padding-top:14px}
+.lr-row{display:flex;justify-content:space-between;padding:7px 0;font-size:.82rem}
+.lr-row span:first-child{color:var(--tx2)}.lr-row span:last-child{font-weight:700;color:var(--dk)}
+.lr-row.highlight span:last-child{color:var(--or1);font-size:.95rem}
+.verdict-banner{max-width:1000px;margin:24px auto 0;background:linear-gradient(135deg,var(--gr),#00A846);border-radius:16px;padding:20px;text-align:center}
+.verdict-banner .vt{font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;color:#fff;margin-bottom:4px}
+.verdict-banner .vs{font-size:.82rem;color:rgba(255,255,255,.9)}
+.apply-btn{display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,var(--or1),var(--or2));border-radius:12px;padding:14px 18px;text-decoration:none;max-width:1000px;margin:18px auto 0}
+.apply-btn:hover{transform:translateY(-2px)}.apply-btn small{color:rgba(255,255,255,.75);font-size:.7rem;display:block}.apply-btn strong{color:#fff;font-size:.9rem}
+.sec{padding:60px 5%}.sec-inner{max-width:1140px;margin:0 auto}
+.sec-tag{font-size:.72rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--or1);margin-bottom:10px}
+.sec-h{font-family:'Syne',sans-serif;font-size:clamp(1.5rem,2.5vw,2rem);font-weight:800;color:var(--dk);margin-bottom:14px}
+.content-p{color:var(--tx2);font-size:.9rem;line-height:1.85;margin-bottom:16px}
+.faq-wrap{margin-top:32px}.faq-i{border-bottom:1px solid var(--bd2);cursor:pointer}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-weight:600;font-size:.9rem;color:var(--dk);gap:16px}
+.faq-plus{width:26px;height:26px;border-radius:50%;background:var(--or5);display:flex;align-items:center;justify-content:center;color:var(--or1);font-size:1rem;font-weight:700;flex-shrink:0;transition:all .3s}
+.faq-i.open .faq-plus{background:var(--or1);color:#fff;transform:rotate(45deg)}
+.faq-a{font-size:.84rem;color:var(--tx2);line-height:1.75;padding:0 0 14px;display:none}
+.faq-i.open .faq-a{display:block}
+footer{background:var(--ow);border-top:2px solid var(--bd);padding:36px 5% 20px;text-align:center}
+.foot-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.3rem;color:var(--dk);text-decoration:none;display:block;margin-bottom:12px}.foot-logo span{color:var(--or1)}
+.foot-links{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-bottom:16px}
+.foot-links a{color:var(--tx2);text-decoration:none;font-size:.8rem}.foot-links a:hover{color:var(--or1)}
+.foot-copy{font-size:.72rem;color:var(--tx3)}
+@media(max-width:768px){.compare-grid{grid-template-columns:1fr}.hero{padding:80px 5% 30px}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="logo">EMI<span>Mitra</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/home-loan-emi-calculator">Home Loan</a></li>
+    <li><a href="/balance-transfer-calculator">Balance Transfer</a></li>
+    <li><a href="https://www.paisabazaar.com/?utm_source=emimitra" target="_blank" class="nav-cta">Apply Now</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="breadcrumb"><a href="/">EMI Mitra</a> → Loan Comparison Calculator</div>
+  <h1>Loan Comparison <em>Calculator</em></h1>
+  <p>Got two loan offers? Compare them side by side to see which one is actually cheaper over the full tenure.</p>
+</section>
+
+<div class="compare-wrap">
+  <div class="compare-grid">
+    <div class="loan-card" id="card-a">
+      <div class="loan-title">Loan Offer A <span class="win-badge" id="badge-a" style="display:none">CHEAPER</span></div>
+      <div class="inp-row"><div class="inp-label"><span>Amount</span><span id="va-amt">₹30,00,000</span></div><input type="range" id="a-amt" min="100000" max="10000000" step="100000" value="3000000" oninput="calc()"></div>
+      <div class="inp-row"><div class="inp-label"><span>Interest Rate</span><span id="va-rate">8.5%</span></div><input type="range" id="a-rate" min="6" max="20" step="0.1" value="8.5" oninput="calc()"></div>
+      <div class="inp-row"><div class="inp-label"><span>Tenure</span><span id="va-tenure">20 Yr</span></div><input type="range" id="a-tenure" min="1" max="30" step="1" value="20" oninput="calc()"></div>
+      <div class="loan-results">
+        <div class="lr-row highlight"><span>Monthly EMI</span><span id="ra-emi">₹26,035</span></div>
+        <div class="lr-row"><span>Total Interest</span><span id="ra-int">₹32.5L</span></div>
+        <div class="lr-row"><span>Total Payable</span><span id="ra-total">₹62.5L</span></div>
+      </div>
+    </div>
+    <div class="loan-card" id="card-b">
+      <div class="loan-title">Loan Offer B <span class="win-badge" id="badge-b" style="display:none">CHEAPER</span></div>
+      <div class="inp-row"><div class="inp-label"><span>Amount</span><span id="vb-amt">₹30,00,000</span></div><input type="range" id="b-amt" min="100000" max="10000000" step="100000" value="3000000" oninput="calc()"></div>
+      <div class="inp-row"><div class="inp-label"><span>Interest Rate</span><span id="vb-rate">9.2%</span></div><input type="range" id="b-rate" min="6" max="20" step="0.1" value="9.2" oninput="calc()"></div>
+      <div class="inp-row"><div class="inp-label"><span>Tenure</span><span id="vb-tenure">20 Yr</span></div><input type="range" id="b-tenure" min="1" max="30" step="1" value="20" oninput="calc()"></div>
+      <div class="loan-results">
+        <div class="lr-row highlight"><span>Monthly EMI</span><span id="rb-emi">₹27,379</span></div>
+        <div class="lr-row"><span>Total Interest</span><span id="rb-int">₹35.7L</span></div>
+        <div class="lr-row"><span>Total Payable</span><span id="rb-total">₹65.7L</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="verdict-banner">
+    <div class="vt" id="verdict">Loan A is cheaper</div>
+    <div class="vs" id="verdict-sub">You save ₹3.2L over the full tenure by choosing Loan A</div>
+  </div>
+  <a class="apply-btn" href="https://www.paisabazaar.com/?utm_source=emimitra" target="_blank" rel="noopener sponsored">
+    <div><small>Find the lowest rate offers</small><strong>Compare Real Bank Offers →</strong></div>
+    <span style="font-size:1.4rem">⚖️</span>
+  </a>
+</div>
+
+<section class="sec" style="margin-top:30px">
+  <div class="sec-inner">
+    <p class="sec-tag">How to Compare</p>
+    <h2 class="sec-h">Don't Just Compare Interest Rates</h2>
+    <p class="content-p">When comparing loan offers, the interest rate alone doesn't tell the full story. A lower rate with a longer tenure can cost more in total interest than a slightly higher rate with a shorter tenure. Always compare the total payable amount and total interest — not just the EMI or the rate.</p>
+    <p class="content-p">Also factor in processing fees, prepayment charges, and other hidden costs. Two loans with the same interest rate can have very different total costs once you add fees. Use this calculator to see the real difference between any two offers.</p>
+  </div>
+</section>
+
+<section class="sec" style="background:var(--ow2)">
+  <div class="sec-inner">
+    <p class="sec-tag">FAQ</p>
+    <h2 class="sec-h">Loan Comparison — Common Questions</h2>
+    <div class="faq-wrap">
+      <div class="faq-i" onclick="toggleFaq(this)"><div class="faq-q">How do I compare two loan offers?<span class="faq-plus">+</span></div><div class="faq-a">Compare the total payable amount (EMI × number of months), not just the interest rate or EMI. A lower EMI from a longer tenure can mean much higher total interest. Also add processing fees to each offer.</div></div>
+      <div class="faq-i" onclick="toggleFaq(this)"><div class="faq-q">Is a lower interest rate always better?<span class="faq-plus">+</span></div><div class="faq-a">Not always. A lower rate with a longer tenure can cost more in total interest than a higher rate with a shorter tenure. Always compare total cost over the full loan period.</div></div>
+      <div class="faq-i" onclick="toggleFaq(this)"><div class="faq-q">What hidden costs should I check?<span class="faq-plus">+</span></div><div class="faq-a">Check processing fees (0.5-2%), prepayment/foreclosure charges, late payment penalties, and insurance bundled with the loan. These can add significantly to the total cost.</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="/" class="foot-logo">EMI<span>Mitra</span></a>
+  <div class="foot-links">
+    <a href="/">Home</a>
+    <a href="/home-loan-emi-calculator">Home Loan EMI</a>
+    <a href="/balance-transfer-calculator">Balance Transfer</a>
+    <a href="/loan-eligibility-calculator">Loan Eligibility</a>
+  </div>
+  <p class="foot-copy">© 2026 EMIMitra.in — For informational purposes only. Not a financial advisor.</p>
+</footer>
+
+<script>
+function fmt(n){if(n>=10000000)return'₹'+(n/10000000).toFixed(2)+'Cr';if(n>=100000)return'₹'+(n/100000).toFixed(1)+'L';if(n>=1000)return'₹'+Math.round(n/1000)+'K';return'₹'+Math.round(n)}
+function emiCalc(P,annual,yrs){const r=annual/12/100,n=yrs*12;return P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1)}
+function calc(){
+const aAmt=parseFloat(document.getElementById('a-amt').value),aRate=parseFloat(document.getElementById('a-rate').value),aYrs=parseInt(document.getElementById('a-tenure').value);
+const bAmt=parseFloat(document.getElementById('b-amt').value),bRate=parseFloat(document.getElementById('b-rate').value),bYrs=parseInt(document.getElementById('b-tenure').value);
+const aEmi=emiCalc(aAmt,aRate,aYrs),aTotal=aEmi*aYrs*12,aInt=aTotal-aAmt;
+const bEmi=emiCalc(bAmt,bRate,bYrs),bTotal=bEmi*bYrs*12,bInt=bTotal-bAmt;
+document.getElementById('ra-emi').textContent=fmt(Math.round(aEmi));document.getElementById('ra-int').textContent=fmt(Math.round(aInt));document.getElementById('ra-total').textContent=fmt(Math.round(aTotal));
+document.getElementById('rb-emi').textContent=fmt(Math.round(bEmi));document.getElementById('rb-int').textContent=fmt(Math.round(bInt));document.getElementById('rb-total').textContent=fmt(Math.round(bTotal));
+document.getElementById('va-amt').textContent=fmt(aAmt);document.getElementById('va-rate').textContent=aRate+'%';document.getElementById('va-tenure').textContent=aYrs+' Yr';
+document.getElementById('vb-amt').textContent=fmt(bAmt);document.getElementById('vb-rate').textContent=bRate+'%';document.getElementById('vb-tenure').textContent=bYrs+' Yr';
+const diff=Math.abs(aTotal-bTotal);
+document.getElementById('badge-a').style.display='none';document.getElementById('badge-b').style.display='none';
+document.getElementById('card-a').classList.remove('winner');document.getElementById('card-b').classList.remove('winner');
+if(aTotal<bTotal){document.getElementById('verdict').textContent='Loan A is cheaper';document.getElementById('verdict-sub').textContent='You save '+fmt(Math.round(diff))+' over the full tenure by choosing Loan A';document.getElementById('badge-a').style.display='inline-block';document.getElementById('card-a').classList.add('winner')}
+else if(bTotal<aTotal){document.getElementById('verdict').textContent='Loan B is cheaper';document.getElementById('verdict-sub').textContent='You save '+fmt(Math.round(diff))+' over the full tenure by choosing Loan B';document.getElementById('badge-b').style.display='inline-block';document.getElementById('card-b').classList.add('winner')}
+else{document.getElementById('verdict').textContent='Both loans cost the same';document.getElementById('verdict-sub').textContent='Both offers have identical total cost'}
+refreshSliders()}
+function refreshSliders(){document.querySelectorAll('input[type=range]').forEach(el=>{const p=(el.value-el.min)/(el.max-el.min)*100;el.style.background=`linear-gradient(to right,#FF6B00 ${p}%,#EDD9C8 ${p}%)`})}
+function toggleFaq(el){const was=el.classList.contains('open');document.querySelectorAll('.faq-i').forEach(f=>f.classList.remove('open'));if(!was)el.classList.add('open')}
+refreshSliders();calc();
+</script>
+</body>
+</html>
