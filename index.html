@@ -146,6 +146,20 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;heigh
 .content-card p{font-size:.85rem;color:var(--tx2);line-height:1.8}
 .formula{background:var(--dk);border-radius:10px;padding:14px 16px;font-family:'Courier New',monospace;font-size:.82rem;color:#FFB347;line-height:2;margin-top:8px}
 
+/* CREDIT CARD CTA — premium green accent */
+.sec-cc{padding:70px 0;background:#F0FDF4}
+.cc-card{display:flex;align-items:center;justify-content:space-between;gap:40px;background:#fff;border:1px solid #A7F3D0;border-radius:22px;padding:42px 48px;box-shadow:0 4px 30px rgba(4,120,87,0.07)}
+.cc-left{flex:1;min-width:0}
+.cc-badge{display:inline-flex;align-items:center;gap:7px;background:#D1FAE5;color:#047857;font-size:.7rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 13px;border-radius:100px;margin-bottom:16px}
+.cc-badge::before{content:"";width:6px;height:6px;border-radius:50%;background:#0E9F6E;box-shadow:0 0 0 4px rgba(14,159,110,0.18);animation:ccpulse 2s ease-in-out infinite}
+@keyframes ccpulse{0%,100%{opacity:1}50%{opacity:.55}}
+.cc-h{font-family:'Fraunces',serif;font-size:clamp(1.55rem,2.4vw,2.05rem);line-height:1.2;color:#064E3B;margin:0 0 12px;font-weight:700}
+.cc-h em{color:#047857;font-style:italic;font-weight:500}
+.cc-p{color:#065F46;font-size:.93rem;line-height:1.7;margin:0;max-width:520px;opacity:.88}
+.cc-cta{display:inline-flex;align-items:center;gap:9px;background:#047857;color:#fff;text-decoration:none;font-weight:600;padding:16px 30px;border-radius:100px;font-size:.92rem;white-space:nowrap;transition:all .25s;box-shadow:0 4px 16px rgba(4,120,87,0.28);flex-shrink:0}
+.cc-cta:hover{background:#065F46;transform:translateY(-2px);box-shadow:0 8px 22px rgba(4,120,87,0.4)}
+@media(max-width:760px){.cc-card{flex-direction:column;align-items:flex-start;padding:30px;gap:22px}.cc-cta{width:100%;justify-content:center}}
+
 /* FAQ */
 .faq-wrap{margin-top:40px;max-width:740px}
 .faq-i{border-bottom:1px solid var(--bd2);cursor:pointer}
@@ -350,7 +364,21 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
       <a href="/sbi-home-loan-emi-calculator-2026" class="ci"><div class="ci-icon">🏦</div><h3>SBI Home Loan EMI 2026</h3><p>Current SBI rates, EMI examples, eligibility and 5 ways to reduce your EMI.</p><span class="ci-arrow">Read →</span></a>
       <a href="/home-loan-on-50000-salary" class="ci"><div class="ci-icon">💰</div><h3>Home Loan on ₹50,000 Salary</h3><p>Exactly how much home loan you can get on a ₹50k salary — and how to increase it.</p><span class="ci-arrow">Read →</span></a>
       <a href="/personal-loan-emi-5-lakh" class="ci"><div class="ci-icon">📄</div><h3>₹5 Lakh Personal Loan EMI</h3><p>Full EMI tables by tenure and interest rate, plus tips to get the lowest rate.</p><span class="ci-arrow">Read →</span></a>
-      <a href="/best-credit-cards-india-2026" class="ci"><div class="ci-icon">💳</div><h3>Best Credit Cards 2026</h3><p>How to choose the right credit card in India, key terms explained, and top picks.</p><span class="ci-arrow">Read →</span></a>
+      <a href="/credit-cards-india.html" class="ci"><div class="ci-icon">💳</div><h3>Best Credit Cards 2026</h3><p>How to choose the right credit card in India, key terms explained, and top picks.</p><span class="ci-arrow">Read →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CREDIT CARD CTA — premium green accent -->
+<section class="sec-cc">
+  <div class="sec-inner">
+    <div class="cc-card">
+      <div class="cc-left">
+        <span class="cc-badge">Recommended for 2026</span>
+        <h2 class="cc-h">Find the right<br><em>credit card for you</em></h2>
+        <p class="cc-p">Compare top picks for 2026 — from zero joining fee cards to premium rewards. Hand-picked shortlist with detailed benefits and eligibility.</p>
+      </div>
+      <a href="/credit-cards-india.html" class="cc-cta">View Top Picks →</a>
     </div>
   </div>
 </section>
@@ -399,7 +427,7 @@ footer{background:var(--ow);border-top:2px solid var(--bd);padding:48px 5% 24px}
       <a href="/sbi-home-loan-emi-calculator-2026">SBI Home Loan EMI</a>
       <a href="/home-loan-on-50000-salary">Loan on ₹50k Salary</a>
       <a href="/personal-loan-emi-5-lakh">₹5 Lakh Personal Loan</a>
-      <a href="/best-credit-cards-india-2026">Best Credit Cards 2026</a>
+      <a href="/credit-cards-india.html">Best Credit Cards 2026</a>
     </div>
     <div class="foot-col">
       <h4>Company</h4>
